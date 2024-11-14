@@ -89,7 +89,12 @@ else {
 }
 //Q10
 let num2=21
-if (num2)
+if (num2 %2==0) {
+    console.log("The number is even.");
+}
+if (num2 %2==1){
+    console.log("The number is odd.")
+}
 
 //Q11
 let house4;
